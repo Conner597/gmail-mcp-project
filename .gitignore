@@ -1,0 +1,21 @@
+# Secrets — never commit these
+.env
+client_secret*.json
+tokens.db
+*.db
+
+# Logs
+agent_log.jsonl
+*.jsonl
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
