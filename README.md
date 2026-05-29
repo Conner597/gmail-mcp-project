@@ -13,7 +13,7 @@ A Gmail MCP server + CLI chat agent (with optional web UI) built with the offici
 
 ## Prerequisites
 
-- Python 3.11+
+- Python 3.11 or 3.12 (Python 3.13+ is not yet fully supported by all dependencies)
 - A Google account
 - Node.js 18+ (required for the web UI; optional for MCP Inspector only if using CLI)
 
