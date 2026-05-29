@@ -27,6 +27,9 @@ A Gmail MCP server + CLI chat agent built with the official MCP and Anthropic SD
    - Search for "Gmail API" and click **Enable**
 
 3. **Configure the OAuth consent screen:**
+
+   > **Note:** Google recently updated the GCP console UI. If you see "Google Auth Platform not configured yet", click **Get started** and follow the short wizard — choose **External** for audience, fill in app name and contact email. During the wizard, set Audience to External and add your Gmail address as a test user when prompted. Once the wizard completes, create your Desktop OAuth client under Clients in the left sidebar (skip to step 4). If you see the classic UI, follow the steps below.
+
    - Go to **APIs & Services → OAuth consent screen**
    - Choose **External**, click **Create**
    - Fill in App name (anything), User support email, Developer contact email
@@ -36,8 +39,8 @@ A Gmail MCP server + CLI chat agent built with the official MCP and Anthropic SD
    - Leave the app in **Testing** status (publishing is not needed)
 
 4. **Create a Desktop OAuth client:**
-   - Go to **APIs & Services → Credentials**
-   - Click **+ Create Credentials → OAuth client ID**
+   - Go to **APIs & Services → Credentials** (or **Clients** in the new UI)
+   - Click **+ Create Credentials → OAuth client ID** (or **+ Create Client**)
    - Application type: **Desktop app**
    - Name it anything (e.g. "gmail-mcp-agent")
    - Click **Create**
