@@ -1,0 +1,30 @@
+:root {
+  --bg: #0f0f11;
+  --surface: #1a1a1f;
+  --surface2: #24242b;
+  --border: #2e2e38;
+  --accent: #4f8ef7;
+  --accent-hover: #6ba3ff;
+  --text: #e8e8f0;
+  --text-muted: #888899;
+  --user-bubble: #1e3a5f;
+  --assistant-bubble: #1a1a1f;
+  --danger: #e05c5c;
+  --success: #4caf7d;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+  --font-sans: "IBM Plex Sans", "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+}
