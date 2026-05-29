@@ -54,7 +54,7 @@ A Gmail MCP server + CLI chat agent built with the official MCP and Anthropic SD
 
 ```bash
 # Clone / unzip the project
-cd gmail-mcp-agent
+cd gmail-mcp-project
 
 # Create and activate a virtual environment
 python -m venv .venv
